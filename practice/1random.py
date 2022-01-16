@@ -16,3 +16,5 @@ print(int(random()*45)+1)
 print(randrange(1,46))#1~45 value 
 
 print(randint(1,45))#1~45 둘다 포함
+
+print("i add this part too for github")
