@@ -6,11 +6,11 @@ for i in word:
         alphabet[i]+=1
     else:
         alphabet[i]=1
-print(alphabet)
 answer=0
 big=0
 
 for i in alphabet:
+    #print(alphabet[i],i)
     if alphabet[i]>big:
         big=alphabet[i]
         answer=i
